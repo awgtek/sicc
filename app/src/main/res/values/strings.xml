@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shop Item Cost Comparisons</string>
+    <string name="action_home">Home</string>
+    <string name="action_lookups">Lookup Tables</string>
+    <string name="new_item">New Purchase</string>
+    <string name="search_item">Search</string>
+</resources>

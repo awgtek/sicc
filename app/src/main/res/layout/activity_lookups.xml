@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aclass.android.adam.project4.LookupsActivity">
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/TabWidgetTheme">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:background="#EAE7E1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+        </LinearLayout>
+    </android.support.v4.app.FragmentTabHost>
+
+</android.support.constraint.ConstraintLayout>

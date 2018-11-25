@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<TableLayout
+    android:id="@+id/detailsItemTable"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1" >
+    <TableRow android:padding="5dp"  android:id="@+id/detailsItemCommonNameRow">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Common Name"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/detailsItemCommonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:textSize="12sp"
+            android:text="" />
+    </TableRow>
+    <TableRow android:padding="5dp" android:id="@+id/detailsItemSpecificNameRow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Specific Name"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemSpecificName"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Category"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemCategory"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Shop Name"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemShopName"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+    <TableRow android:padding="5dp" android:id="@+id/detailsItemShopAddressRow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Shop Address"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemShopAddress"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Price"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemPrice"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Quantity"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemQuantity"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:padding="5dp" android:id="@+id/detailsItemIsOnSaleRow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="On Sale?"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemIsOnSale"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Date"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/detailsItemDate"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/purchaseItemCancelDialogButton"
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/return_img" />
+        <ImageView
+            android:id="@+id/purchaseItemDeleteDialogButton"
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="right"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/itemdelete" />
+    </TableRow>
+
+
+</TableLayout>
+</ScrollView>
